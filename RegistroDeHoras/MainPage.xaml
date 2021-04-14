@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RegistroDeHoras.MainPage">
+
+    <StackLayout>
+
+        <Frame BorderColor="Gray" CornerRadius="15" HasShadow="False" Margin="5,5,5,0" BackgroundColor="WhiteSmoke">
+
+
+            <StackLayout>
+
+                <Label Text="Hora de entrada" FontAttributes="Bold"/>
+
+                <TimePicker x:Name="entryTime" Format="HH:mm"/>
+
+
+            </StackLayout>
+
+        </Frame>
+
+        <Button Text="Logout" x:Name="btnLogout" BackgroundColor="Black" BorderRadius="20" TextColor="White" Clicked="btnLogout_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

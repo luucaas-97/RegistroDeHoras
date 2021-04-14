@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "811134974347",
+    "project_id": "fir-sample-16205",
+    "storage_bucket": "fir-sample-16205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811134974347:android:fccbb2ebef278e7100d78e",
+        "android_client_info": {
+          "package_name": "com.company.DemoAppX"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811134974347-h1lnnsv5r5oo973u3jc6as2akm3smooo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWsY1ZFUAAgFvhIwA8OWCr9QHD1mF7Fjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811134974347-h1lnnsv5r5oo973u3jc6as2akm3smooo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811134974347:android:2c64cd09df866fd800d78e",
+        "android_client_info": {
+          "package_name": "com.company.RegistroDeHoras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811134974347-h1lnnsv5r5oo973u3jc6as2akm3smooo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWsY1ZFUAAgFvhIwA8OWCr9QHD1mF7Fjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811134974347-h1lnnsv5r5oo973u3jc6as2akm3smooo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

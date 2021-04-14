@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RegistroDeHoras.Register">
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <Grid>
+                
+                <BoxView Color="#9E9E9E" Opacity="0.50"/>
+
+                <Grid>
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.Row="0" Source="iconoRegistro.png" WidthRequest="100" HeightRequest="100" Margin="0,20,0,30"/>
+
+                    <StackLayout Grid.Row="1" Padding="10,10">
+
+                        <Entry Placeholder="Name" PlaceholderColor="White" x:Name="txtNom"/>
+                        <Entry Placeholder="Surname" PlaceholderColor="White" x:Name="txtAp"/>
+                        <Entry Placeholder="Email" PlaceholderColor="White" x:Name="txtUserEmail"/>
+                        <Entry Placeholder="Password" PlaceholderColor="White" IsPassword="True" x:Name="txtPswd"/>
+
+                        <Button Text="Register" x:Name="btnRegister" BackgroundColor="Black" BorderRadius="20" TextColor="White" Clicked="btnRegister_Clicked"/>
+
+                        <Button Text="Go to Login" x:Name="btnGoToLogin" BackgroundColor="Black" BorderRadius="20" TextColor="White" Clicked="btnGoToLogin_Clicked"/>
+
+                    </StackLayout>
+
+                </Grid>
+
+            </Grid>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
