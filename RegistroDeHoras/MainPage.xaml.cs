@@ -33,7 +33,7 @@ namespace RegistroDeHoras
             try
             {
 
-                //firebase uthentication guardada durante el login
+                //firebase authentication guardada durante el login
                 var savedfirebaseauth = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("MyFirebaseRefreshToken", ""));
 
                 //Refrescamos el token
@@ -52,14 +52,7 @@ namespace RegistroDeHoras
             }
 
         }
-
-        private async void btnLogout_Clicked(object sender, EventArgs e)
-        {
-
-            await Navigation.PushAsync(new Login());
-
-        }
-
       
     }
+
 }

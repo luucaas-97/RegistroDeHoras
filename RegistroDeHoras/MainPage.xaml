@@ -19,8 +19,6 @@
 
         </Frame>
 
-        <Button Text="Logout" x:Name="btnLogout" BackgroundColor="Black" BorderRadius="20" TextColor="White" Clicked="btnLogout_Clicked"/>
-
     </StackLayout>
 
 </ContentPage>
